@@ -71,7 +71,7 @@ Average case: Aradığımız sayının ortada olması, Worst case: Aradığımı
 4- Dizi sıralandıktan sonra 18 sayısı `Average Case` kapsamına girer.
 
 
-##[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımı: 
+## [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımı: 
 
 
 **1. Döngü:** `i` değerinin 1'e eşitlenmesiyle döngü başlar. `j=0` olur ve `while` döngüsünün şartları kontrol edilir. `j>=0` ve `arr[0]>arr[1]` ifadesi (7>3) doğru olduğundan `arr[0]` ve `arr[1]` ifadeleri arasında swap işlemi yapılır. `arr[0]=3` ve `arr[1]=7` olur. `j` değeri bir azaltılır. `j>=0` ifadesini sağlamadığından `while` döngüsüne girilmez ve 1. döngü tamamlanır. 
