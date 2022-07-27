@@ -16,8 +16,11 @@
   }
 ```
 1- Dizideki elemanlar arasında gezebilmek için bir `for` döngüsü açılır, sıralama yapabilmek için tanımlanmış `j` değişkeni `i-1` ifadesine eşitlenir.
+
 2- `while` ile `j>=0` ve `arr[j]>arr[j+1]` şartları sağlandığı sürece dönecek bir döngü açılır. 
+
 3- Şartlar sağlandığı zaman döngü içine girilir ve önceden tanımlanmış `tmp` değeri kullanılarak `arr[j]`ve `arr[j+1]`  değerleri arasında swap işlemi yapılır. Sıralamanın düzgün olması için geriye dönük bir kontrolün sağlanması adına `j` değeri bir azaltılır.
+
 4- Şartlar sağlanmayana dek while döngüsü dönmeye devam eder. `while` döngüsünden çıkıldıktan sonra for döngüsüyle `i` değeri bir arttırılır. Buradaki döngünün de sona ermesiyle sıralama tamamlanmış olur.
 
 **1. Döngü:** `i` değerinin 1'e eşitlenmesiyle başlayan döngü `j` değerinin 0 olmasıyla devam eder. `while` döngüsüne gelindiğinde `j>=0` şartı sağlanmasına rağmen `arr[0]>arr[1]` yani (22>27) şartı sağlanmadığı için döngüye girilmez. 
